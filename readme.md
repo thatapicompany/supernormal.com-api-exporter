@@ -8,6 +8,7 @@ We have also intocluded the OpenAPI spec doc we have created by reverse engineer
 
 ## Author
 - [Aden Forshaw - ThatAPICompany.com](https://ThatAPICompany.com)
+- Blog post with more details and ideas to use the API for: [Exporting data from Supernormal](https://thatapicompany.com/supernormal-com-api-reverse-engineering-and-data-exporting/)
 
 ## **Prerequisites**
 To run this script, you need:
