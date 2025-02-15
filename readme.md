@@ -38,3 +38,30 @@ All Posts will be saved in a folder called `posts` as individual JSON files, and
 5. Look for a request to `api.supernormal.com` in the list of requests - or one called `user`
 6. Click on the request and look for the `Authorization` header in the request headers
 7. Copy the value of the `Authorization` header (it should start with `Bearer`) and paste it into the script when prompted
+
+![Bearer Example Screenshot](docs/bearer-screenshot.png)
+
+## Example Screenshot
+
+![Posts Example Screenshot](docs/posts-screenshot.png)
+
+## UseCases
+
+- Exporting all posts to a JSON file
+- Exporting all tasks to a JSON file
+- Exporting all posts to individual JSON files
+
+Once you've exported all the data you could import it into any platforms not currently setup as integrations inside of Supernormal.
+
+This could be:
+- Exporting all the Tasks to a CSV file for further analysis
+- Microsoft Teams for notifications
+- Gitlab for tracking tasks
+- Google Sheets for reporting
+- Zendesk for customer support
+- Use the refresh token flow to create a long running script that fetches new posts every hour
+
+Sure Zapier could do some of this, but this script is free and you can run it on your own server.
+
+## License
+MIT - aka do what you want with this code. Have fun!
